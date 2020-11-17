@@ -47,3 +47,5 @@ The `size` property on supported components will output the class `hui--size-*`.
 ---
 
 ## CSS classes {#css-classes}
+
+If you've taken a look at the default Tailwind plugins or the documentation for each component, you'll see that each include [BEM](http://getbem.com/introduction/)-esque classes by default. If you wish to style components by class name, you can do so in whatever method you're comfortable with.
