@@ -32,4 +32,4 @@ section: content
 ### Notes
 * `<x-hui-list.accordion-item>` component container elements are wrapped with the class `.hui-list__item--accordion`.
 * Classes passed in via attributes on `<x-hui-list.accordion-item>` are appended to the default slot class (`.hui-list__item-content`).
-* Other attributes are applied to the component container element
+* Other attributes are applied to the component container element.

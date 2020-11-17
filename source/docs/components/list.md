@@ -29,10 +29,13 @@ section: content
 ## Sub-components
 | Name | Default class | Purpose |
 |---|---|---|
-| `<x-hui-list.item>` | `.hui-list__item` | Refer to documentation |
-| `<x-hui-list.accordion-item>` | `.hui-list__item--accordion` | Refer to documentation |
-| `<x-hui-list.collapsible-item>` | `.hui-list__item--collapsible` | Refer to documentation |
+| `<x-hui-list.item>` | `.hui-list__item` | [Refer to documentation](/docs/components/list/item) |
+| `<x-hui-list.accordion-item>` | `.hui-list__item--accordion` | [Refer to documentation](/docs/components/list/accordion-item) |
+| `<x-hui-list.collapsible-item>` | `.hui-list__item--collapsible` | [Refer to documentation](/docs/components/list/collapsible-item) |
 
 
 ### Notes
-Mixing `<x-hui-list.accordion-item>` and `<x-hui-list.collapsible-item>` sub-components will likely result in inconsistent behavior or errors.
+* Mixing `<x-hui-list.accordion-item>` and `<x-hui-list.collapsible-item>` sub-components will likely result in inconsistent behavior or errors.
+* List item visibility is controlled by the Alpine.js data property `selected`.
+    * In the case that the `<x-hui-list>` is wrapping `<x-hui-list.collapsible-item>` items, `selected` is a map where the keys are the sub-component's `key` prop.
+    * In the case that the `<x-hui-list>` is wrapping `<x-hui-list.accordion-item>` items, `selected` is a string representing the selected sub-component's `key` prop.

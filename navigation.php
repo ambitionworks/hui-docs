@@ -43,7 +43,13 @@ return [
                     'Modal' => 'docs/components/modal',
                     'Popover' => 'docs/components/popover',
                     'Slide-out' => 'docs/components/slide-out',
-                    'Tabs' => 'docs/components/tabs',
+                    'Tabs' => [
+                        'url' => 'docs/components/tabs',
+                        'children' => [
+                            'Content' => 'docs/components/tabs/content',
+                            'Handle' => 'docs/components/tabs/handle',
+                        ],
+                    ],
                 ]
             ],
         ],
