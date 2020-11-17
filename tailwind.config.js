@@ -22,7 +22,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          'Nunito Sans'
+          'Inter'
         ],
         mono: [
           'monospace',
