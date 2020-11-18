@@ -5,7 +5,7 @@ return [
         'url' => 'docs/getting-started',
         'children' => [
             'Customization' => 'docs/customization',
-            'Extending' => '',
+            'Extending' => 'docs/extending',
         ],
     ],
     'Components' => [
