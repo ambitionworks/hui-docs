@@ -54,8 +54,10 @@ return [
             ],
         ],
     ],
-    'Examples' => [
-        'children' => [],
+    'More Examples soon' => [
+        'children' => [
+            'Kitchen Sink' => 'https://github.com/ambitionworks/hui-examples'
+        ],
     ],
     'GitHub' => 'https://github.com/ambitionworks/hui',
 ];
