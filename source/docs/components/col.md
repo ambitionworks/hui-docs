@@ -21,7 +21,7 @@ section: content
 ## Props
 | Name | Values | Default | Purpose |
 |---|---|---|---|
-| size | `int`, `array` | 12 | Set the width of the col. This is always expressed out of a maximum size of 12. An array can be passed in with breakpoints as the array keys to make the column width responsive. |
+| size | `int`, `array` | `''` | Set the width of the col. This is always expressed out of a maximum size of 12. An array can be passed in with breakpoints as the array keys to make the column width responsive. |
 
 ## Slots
 | Name | Default class | Purpose |

@@ -44,6 +44,7 @@ section: content
 |---|---|---|---|
 | handle | `string` | `''` | Content for the "handle" which toggles the modal display |
 | position | `'rc', 'lc', 'tl', 'tc', 'tr', 'bl', 'bc','br'` | `'bl'` | Position of the popover content |
+| contentClass | `string` | `''` | Classes to be applied to the _default_ slot |
 | hover | `bool` | `false` | Whether popover content is triggered on hover |
 
 ## Slots
