@@ -79,7 +79,7 @@ If you want to have a fixed `title` prop for all _Danger Alerts_, it is trivial 
 </x-dynamic-component>
 ```
 
-But sometimes having a the same title isn't going to cut it. It would be great if you could set a title from your `<x-danger-alert>` component, right? But if you give this a try...
+But sometimes having the same title isn't going to cut it. It would be great if you could set a title from your `<x-danger-alert>` component, right? But if you give this a try...
 
 ```html
 <x-danger-alert>
