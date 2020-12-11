@@ -30,6 +30,8 @@ section: content
 | Name | Values | Default | Purpose |
 |---|---|---|---|
 | handle | `string` | `''` | Content for the "handle" which toggles the modal display |
+| backdropClass | `string` | `'absolute inset-0 bg-black bg-opacity-25'` | Classes applied to the "backdrop" element |
+| contentClass | `string` | `'flex items-end sm:items-center justify-center min-h-screen text-center'` | Classes applied to the content container element |
 
 ## Slots
 | Name | Default class | Purpose |
